@@ -26,16 +26,25 @@ email: grant@grant.place
 #  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.grant.place" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: grinville
-github_username:  g-linville
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 minima:
-  skin: dark
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/g-linville"
+    - title: X
+      icon: x-twitter
+      url: "https://x.com/grinville"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://linkedin.com/in/grantlinville"
+  skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.
