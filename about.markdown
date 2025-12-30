@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a software engineer based out of Metro Detroit, currently working for [Obot AI](https://obot.ai).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My background is in the Kubernetes and DevOps/cloud world, but for the past couple years I have been working on AI tooling and more recently in the MCP ecosystem.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I make heavy use of Claude Code in my day-to-day work and am interested to see what the future software development holds.
