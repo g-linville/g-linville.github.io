@@ -1,5 +1,3 @@
-## LLMs can't replace software engineers (yet)
-
 These are some basic observations I've made as Claude Code transformed my day-to-day work in 2025. Although LLMs have eliminated some of the gruntwork in software engineering, there are some fundamental limitations that, unless and until overcome, render them incapable of replacing software engineers.
 
 ### Prompt injection and the code review bottleneck
