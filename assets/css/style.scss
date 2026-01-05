@@ -8,13 +8,12 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&family=Inter:wght@300;400;500;600&display=swap");
 
 :root {
-  --neon-green: #00ff41;
-  --neon-cyan: #00ffff;
-  --neon-pink: #ff00ff;
-  --neon-yellow: #ffff00;
   --dark-bg: #0a0a0a;
   --dark-surface: #1a1a1a;
-  --terminal-green: #39ff14;
+  --gray-1: #2a2a2a;
+  --gray-2: #e0e0e0;
+  --gray-3: #d0d0d0;
+  --amber: #ffb000;
 }
 
 body {
@@ -24,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--neon-cyan);
+  color: var(--amber);
   font-family: "VT323", monospace;
   text-transform: uppercase;
 }
@@ -35,18 +34,18 @@ h1 {
 }
 
 a {
-  color: #333333;
+  color: var(--amber);
   text-decoration: none;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid var(--gray-1);
 }
 
 a:hover {
-  background-color: #333333;
-  color: #ffffff;
+  background-color: var(--gray-1);
+  color: var(--gray-2);
 }
 
 .site-header {
-  border-bottom: 2px solid var(--neon-green);
+  border-bottom: 2px solid var(--gray-1);
   background: var(--dark-surface);
 }
 
@@ -54,16 +53,17 @@ a:hover {
   font-family: "VT323", monospace;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: var(--amber) !important;
 }
 
 .site-nav .page-link {
-  color: var(--neon-cyan);
+  color: var(--amber);
   font-family: "VT323", monospace;
   text-transform: uppercase;
 }
 
 .site-nav .page-link:hover {
-  color: var(--neon-green);
+  color: var(--gray-2);
 }
 
 .post-header h1 {
@@ -77,33 +77,33 @@ a:hover {
 }
 
 .post-content a {
-  color: var(--neon-green);
-  border-bottom: 1px solid var(--neon-green);
+  color: var(--amber);
+  border-bottom: 1px solid var(--gray-1);
 }
 
 .post-content a:hover {
-  background-color: var(--neon-green);
-  color: var(--dark-bg);
+  background-color: var(--gray-1);
+  color: var(--gray-2);
 }
 
 .post-meta {
-  color: var(--neon-yellow);
+  color: var(--gray-3);
   font-style: normal;
 }
 
 footer {
-  border-top: 2px solid var(--neon-green);
-  color: var(--neon-green);
+  border-top: 2px solid var(--gray-1);
+  color: var(--gray-3);
   background: var(--dark-surface);
 }
 
 pre, code {
   background-color: var(--dark-surface);
-  border: 1px solid var(--neon-cyan);
-  color: var(--neon-yellow);
+  border: 1px solid var(--gray-1);
+  color: var(--gray-2);
 }
 
 blockquote {
-  border-left: 3px solid #333333;
-  color: var(--neon-cyan);
+  border-left: 3px solid var(--gray-1);
+  color: var(--gray-3);
 }
